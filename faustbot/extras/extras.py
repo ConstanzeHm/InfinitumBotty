@@ -14,4 +14,5 @@ giveextras = [
     "viel Kraft... sehr viel",
     "eine Packung bunte Taschentücher",
     "einen Eimer gute Laune",
+    "einen Orden"
 ]
