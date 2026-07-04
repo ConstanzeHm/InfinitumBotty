@@ -637,4 +637,5 @@ essen = [
     "steirische Apfeltorte",
     "viel zu viele Waffeln",
     "ein Stück Tante Mathildas Kirschkuchen",
+    "eine köstliche Rolle Futomaki mit salzreduzierter Sojasauce"
 ]
