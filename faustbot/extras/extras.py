@@ -154,4 +154,5 @@ giveextras = [
     "eine graue, seltsam stumpf wirkende Kette mit 48 Geisterperlen",
     "die peitschende Weide, die in deiner Gegenwart zur sanftmütigen Weide wird",
     "einen plätschernden Bach zum Planschen",
+    "eine abgelehnte Petition",
 ]
