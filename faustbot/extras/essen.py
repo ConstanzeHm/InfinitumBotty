@@ -614,7 +614,7 @@ essen = [
     "eine Schale Gemüsefumet",
     "einen Becher Graupen",
     "Hirse mit brauner Butter",
-    "ein Glas Tee von Isländischem Moos",
+    TTTTTT"ein Glas Tee von Isländischem Moos",
     "einen Topf Morcheln",
     "eine mehrstöckige Hochzeitstorte",
     "eine Schüssel Pilzragout",
