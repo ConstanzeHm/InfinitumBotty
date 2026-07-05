@@ -178,4 +178,5 @@ snacks = [
     "eine übergroße Erdbeere mit Sahnehäubchen",
     "ein ausgeplündertes Überraschungsei",
     "eine überreife Banane mit braunen Stellen",
+    "ein paar Stücke klebrigen Lokum",
 ]
