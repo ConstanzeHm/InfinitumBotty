@@ -118,4 +118,5 @@ icecream = [
     "eine Eistüte mit drei prekär balancierenden Kugeln",
     "einen bimmelnden Eiscreme-Truck und ein paar Münzen",
     "eine eiskalte Belohnung",
+    "zwei Snickers-Eiscreme-Riegel"
 ]
