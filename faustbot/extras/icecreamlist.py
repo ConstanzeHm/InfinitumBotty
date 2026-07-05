@@ -93,4 +93,5 @@ icecream = [
     "eine ganze Packung Banana-Split und einen Löffel",
     "ein Himbeereis mit weißer Schokoladenhülle",
     "Mokka-Eiscreme mit einem klitzebisschen Pistazie",
+    "einen Tuppen Eiscreme und einen Löffel",
 ]
