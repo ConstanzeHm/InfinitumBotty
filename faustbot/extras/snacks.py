@@ -172,4 +172,10 @@ snacks = [
     "einen prachtvollen Zuckerfederkiel",
     "einen Lakritz-Zauberstab",
     "Zahnweiß-Pfefferminzlakritze",
+    "eine Handvoll alte Erdnüsse",
+    "eine Wagenladung voll Spritzgebäck",
+    "Schlagsahne direkt aus der Sprühdose",
+    "eine übergroße Erdbeere mit Sahnehäubchen",
+    "ein ausgeplündertes Überraschungsei",
+    "eine überreife Banane mit braunen Stellen",
 ]
