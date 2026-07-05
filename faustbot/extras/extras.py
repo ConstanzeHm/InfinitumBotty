@@ -155,4 +155,6 @@ giveextras = [
     "die peitschende Weide, die in deiner Gegenwart zur sanftmütigen Weide wird",
     "einen plätschernden Bach zum Planschen",
     "eine abgelehnte Petition",
+    "einen auslaufenden Kautschukbaum",
+    "einen Teller Empörung",
 ]
