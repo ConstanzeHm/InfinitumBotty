@@ -498,4 +498,27 @@ essen = [
     X"ein Stück Tante Mathildas Kirschkuchen",
     "eine köstliche Rolle Futomaki mit salzreduzierter Sojasauce"
     "ein Brötchen mit veganem Karottenlachs"
+#non-good bzw. Referenzen, seltsames, etc.:
+
+
+#Kuchen/Puddings/Süßspeisen die nicht Hauptspeise, Kekse, Eiscreme oder Snacks sind:
+    "viel zu viele Waffeln",
+    "ein Stück von Tante Mathildas Kirschkuchen"
+    "dreizehn üppige Zimtschnecken",
+    "aufgetauten Kuchen vom letzten Jahr",
+    "ein Lebkuchenhaus mit eingestürztem Dach",
+    "einen Kuchen ohne Backpulver",
+    "einen Geburtstagskuchen mit zu wenig Kerzen",
+    "ein Blech Papageienkuchen",
+    "zwei mit Senf gefüllte Donuts",
+    "ein schokoladiges Miniaturmodell des Sonnensystems mit Pluto als Kirsche",
+    "eine täuschend echte Rolle Toilettenpapier, aber es ist Kuchen",
+    "eine Schale tumultuöses Tiramisu",
+    "Zuckerwatte mit Einhorngeschmack",
+    "ein Stück kichernden Käsekuchen mit Himbeeren",
+    "drei Stücke traurige trockene Torte",
+    "eine ganze Benjamin-Blümchen-Torte",
+    "eine nicht ganz perfekte Crème Brûlée",
+    "einen Klumpen Teig, der an einen Kuchen erinnert",
+    "ein Stück Hochzeitstorte mit 2 kg Fondant",
 ]
