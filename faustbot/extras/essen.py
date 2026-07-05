@@ -176,7 +176,7 @@ essen = [
     "ein knuspriges Langos mit Salz und Öl",
     X"eine ganze Ananas",
     "einen prall gefüllten Frühstücksburrito",
-    "eine mehr oder weniger gelungene Turducken",
+    "ein mehr oder weniger gelungener Linsen-Walnuss-Braten",
     "Gemüsestreifen mit Hummus-Dip",
     X"Gourmet-Katzenfutter",
     "ein Omelett mit Pilzen und Cheddar",
