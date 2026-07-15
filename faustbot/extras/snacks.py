@@ -160,7 +160,7 @@ snacks = [
     "einen sagenumwobenen Seetang-Riegel",
     "ein gläsernes Schüsselchen mit schokoladenummantelten Rosinen",
     "eine Tüte voll verräterisch knackender Gemüsechips",
-    "einen Räuberriegel-Proviant für lange Ausflüge",
+    "Räuberriegel-Proviant für lange Ausflüge",
     "eine Regenbogen-Zuckerwatte",
     "einen kandierten Apfel",
     "einen Berg Schokoraspeln",
