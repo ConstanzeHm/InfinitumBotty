@@ -1,5 +1,5 @@
 #! /usr/bin/env nix-shell
-#! nix-shell -i bash -p bash python313Packages.wikipedia python313Packages.requests python313Packages.cython
+#! nix-shell -i bash -p bash python313Packages.wikipedia python313Packages.requests
 #
 
 # Directory of the virtual environment
@@ -17,21 +17,21 @@ help() {
   echo "  -e  exits/stops the bot"
   echo "  -r  restarts the bot"
   echo "  -u  updates the bots code"
-  echo "  -d  activates tailing of out.txt for quick debugging"
+  echo "  -d  restarts the bot and activates tailing of logs/out.txt for quick debugging"
 }
 
 start() {
   venv
   echo "[=== checking if bot is already running "
-  if [ -f ".pid" ]; then
+  if [ -f "logs/.pid" ]; then
     echo "[=== bot is already running "
     echo "[=== aborting start "
   else
     echo "[=== bot is not running "
     echo "[=== check if out.txt exists "
-    if [ -f "out.txt" ]; then
+    if [ -f "logs/out.txt" ]; then
       echo "[=== removing existing out.txt "
-      rm out.txt
+      rm logs/out.txt
     else
       echo "[=== no out.txt found "
     fi
@@ -41,10 +41,10 @@ start() {
     else
       echo "[=== no database "
       echo "[=== preparing database "
-      python ReadInternationalization.py
+      python python/ReadInternationalization.py
     fi
-    echo "[=== checking if config.txt exits"
-    if [ -f "config.txt" ]; then
+    echo "[=== checking if config/config.txt exits"
+    if [ -f "config/config.txt" ]; then
       echo "[=== config.txt exists"
     else
       echo "[=== no config.txt"
@@ -60,22 +60,22 @@ start() {
     fi
     echo "[=== starting faust-bot "
     echo "[=== redirecting output to nohup.out "
-    nohup python -u Main.py --config config.txt >out.txt &
+    nohup python -u Main.py --config ./config/config.txt > logs/out.txt &
     echo "[=== pid of bot process can be found in .pid "
-    echo $! >.pid
+    echo $! >logs/.pid
   fi
 }
 
 stop() {
   echo "[=== checking if bot is running "
-  if [ ! -f ".pid" ]; then
+  if [ ! -f "logs/.pid" ]; then
     echo "[=== bot is not running "
   else
     echo "[=== bot is running "
     echo "[=== killing bot process "
-    kill "$(cat .pid)"
+    kill "$(cat logs/.pid)"
     echo "[=== removing .pid file "
-    rm .pid
+    rm logs/.pid
   fi
 }
 
@@ -106,7 +106,7 @@ debug() {
   echo "[== debug sesh activated"
   stop
   start
-  tail -f out.txt
+  tail -f logs/out.txt
 }
 
 OPTIND=1

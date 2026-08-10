@@ -10,40 +10,49 @@ Designed for non-technical channels
  - pip
  - wikipedia package (can be installed using pip; tested with version 1.4.0)
  - requests package (can be installed using pip; tested with version 2.23.5)
- - cython package (can be installed using pip; tested with version 3.2.4)
  - virtualenv (optional)
  
 ### Running the Bot
 The direct way:
 ```bash
 # Install all dependencies
-pip install -r requirements.txt
+pip install -r python/requirements.txt
 # First load all needed strings into the database
 # Per default german is used. If you want another language you need to 
 # add an language file and modify the script.
 # Later it will be refactored, so it uses arguments
-python ReadInternationalization.py
+python python/ReadInternationalization.py
 # Create a configuration file by having a look at config-example.txt
 # Start the bot using the given config file.
-python Main.py --config ./config.txt
+python Main.py --config ./config/config.txt
 ``` 
 Using [faust-bot-run.sh](/faust-bot-run.sh). This script creates and uses a virtual environment, therefore the optional requirement virtualenv is required
 ```bash
 # Make the script executable
 chmod u+x ./faust-bot-run.sh
 # To display all possible options
-./script -h
+./faust-bot-run.sh -h
 > Simple script to manage a single faust-bot instance.
 >  -h  displays this help message
 >  -s  starts the bot, if it is not running yet
 >  -e  exits/stops the bot
 >  -r  restarts the bot
 >  -u  updates the bots code
+>  -d  restarts the bot and tails out.txt
 # Start the bot.
 # The script creates an virtualenv, installs all pip dependencies and starts the Bot in the background
 # The pid of the Bot-process is saved in .pid.
 # Stdout is redirected to out.txt 
 ./script -s
+```
+Using [nix-bot-run.sh](/nix-bot-run.sh). This script uses nix-shell and creates **no** virtualenv. 
+Arguments are the same as with [faust-bot-run.sh](/faust-bot-run.sh). The only difference is the use of nix-shell. 
+You wont need a shell.nix or a default.nix. nix-shell is used as a #! interpreter as per [Use a #!-interpreter](https://nix.dev/manual/nix/2.22/command-ref/nix-shell#use-as-a--interpreter).  
+```bash
+# Make the script executable
+chmod u+x ./nix-bot-run.sh
+# Display all possible options
+./nix-bot-run.sh -h
 ```
 
 ## Contribution
