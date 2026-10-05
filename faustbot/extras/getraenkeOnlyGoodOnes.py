@@ -128,4 +128,11 @@ getraenkegoodones = [
     "einen duftenden Apfel-Zimt-Drink",
     "Lindenblütentee",
     "ein hübsches Gedeck mit Zitronengrastee",
+    "einen herbstlichen heißen Apfelsaft mit Zimt",
+    "einen herbstlichen Kürbis-Spice-Latte",
+    "einen richtig grünen Grünkohl-Smoothie",
+    "einen Matcha-Mocha",
+    "einen Pfefferminz-Mocha",
+    "einen blauen Orangen-Mocha mit extra Schäumchen",
+    "einen sommerlichen Fruchtpunsch",
 ]
