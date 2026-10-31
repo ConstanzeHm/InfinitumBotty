@@ -239,5 +239,9 @@ giveextras = [
     "die Sichtung eines echten Einhorns",  
     "die Sichtung eines als Einhorn verkleideten Ponys",  
     "die Sichtung einer Horde Marienkäfer",  
-    "die Sichtung einer Elfe",    
+    "die Sichtung einer Elfe",
+    "zwanzig Bilder vom selben Motiv",
+    "ein Stück vom Ende des Regenbogens, mit einer Schüssel voll Gold darunter",
+    "dreizehn verstaubte Gipsbüsten, die nicht für den Garten geeignet sind",
+    "ein dickes Sudoku-Heft von 1998",
 ]
