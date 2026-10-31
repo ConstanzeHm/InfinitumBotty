@@ -135,4 +135,6 @@ getraenkegoodones = [
     "einen Pfefferminz-Mocha",
     "einen blauen Orangen-Mocha mit extra Schäumchen",
     "einen sommerlichen Fruchtpunsch",
+    "eine dampfende Kanne Schietwettertee",  
+    "einen gemütlichen Platz vor dem Kaminfeuer mit einer Tasse Kaminfeuertee",
 ]
