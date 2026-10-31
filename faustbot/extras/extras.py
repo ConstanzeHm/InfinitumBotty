@@ -239,6 +239,5 @@ giveextras = [
     "die Sichtung eines echten Einhorns",  
     "die Sichtung eines als Einhorn verkleideten Ponys",  
     "die Sichtung einer Horde Marienkäfer",  
-    "eine dampfende Kanne Schietwettertee",  
-    "einen gemütlichen Platz vor dem Kaminfeuer mit einer Tasse Kaminfeuertee",
+    "die Sichtung einer Elfe",    
 ]
