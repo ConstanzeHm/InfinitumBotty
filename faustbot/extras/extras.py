@@ -199,7 +199,7 @@ giveextras = [
     "zwei Flummis zum Rumspielen",
     "zwei handliche Softbälle zum Gegen-die-Wand-Bouncen",
     "das Autisten-Extrablatt, frisch aus der Presse",
-    "eine Musikkassette der Hoola-Hoops",
+    "eine Musikkassette der Hula-Whoops",
     "eine originale Musikkassette mit deinem Lieblingsfall der drei ???",
     "Zauberblumen für die Elfenkönigin",
     "ein echtes Einhorn, das dein treuer Begleiter sein wird",
